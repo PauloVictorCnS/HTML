@@ -86,10 +86,14 @@ img{
 }
 
 
-header{
-    display:none;
+.link-2{
+    display: none;
 }
 
+header{
+    left: 31vh;
+    position: relative;
+}
 
 .section-top{
     width:100%;
@@ -112,6 +116,8 @@ header{
         display:inline-block;
         margin-left:42px;
         margin:47px 0 178.2px 42px ;
+        position: static;
+
 
     }
    .link-header{
@@ -122,6 +128,7 @@ header{
         font-weight: 400;
         line-height: normal;  
         margin-right: 32px;
+        cursor: pointer;
        
 
     }
@@ -147,7 +154,8 @@ header{
         font-size: 16px;
         left:0;
         position: static;
-        display:inline-block
+        display:inline-block;
+        cursor: pointer;
 
     }
 
@@ -181,6 +189,11 @@ header{
         font-size: 18px;
         text-align: left;
         margin:0 0 0 9vh;
+        cursor: pointer;
         
+    }
+    .link-2{
+        display: inline-block;
+        cursor: pointer;
     }
 }
